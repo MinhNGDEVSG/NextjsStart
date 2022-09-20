@@ -7,12 +7,44 @@ body {
 }
 
 a {
-  color: inherit;
+  color: blue;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+.content{
+  max-width: 960px;
+  margin: auto;
+}
+
+nav{
+  margin: 10px auto 80px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid wheat;
+}
+
+nav a:not(:first-child){
+  margin-left: 20px;
+}
+
+footer{
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
+  color: brown;
+  border-top: 1px solid wheat;
+}
+
+
+.not-found{
+  text-align: center;
+  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,3 +56,5 @@ a {
     background: black;
   }
 }
+
+/* dùng chung cho toàn app className=''*/
