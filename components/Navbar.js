@@ -8,7 +8,7 @@ export default function Navbar() {
         <div>
           <Link href="/">
             <a>
-              Coder Wikipedia
+              Home Wikipedia
             </a>
           </Link>
         </div>
