@@ -16,7 +16,7 @@ export default function About() {
         <p className={styles.text}>
           This is a small website that manages the Shill operation process for token, crypto, 
           game, nft projects... the function of mods must ensure that they do their daily tasks 
-          correctly, check the entire function box see What's New?
+          correctly, check the entire function box see What is New?
         </p>
 
         <span>Happy day!</span>
