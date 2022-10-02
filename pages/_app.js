@@ -3,10 +3,12 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (
+    <div className='container'>
     <Layout>
       {/* đang là con of Layout */}
       <Component {...pageProps} /> 
     </Layout>
+    </div>
   );
 }
 

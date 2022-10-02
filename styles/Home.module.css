@@ -1,6 +1,12 @@
 .title{
   color: black;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.subtitle{
+  color: black;
+  padding-bottom: 50px;
   text-align: center;
 }
 
@@ -8,6 +14,28 @@
   color: #777;
 }
 
+.btnMenu{
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  background: blue;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 7px;
+}
+
+
+.btnCom{
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  background: green;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 7px;
+}
 
 
 /* dùng cho một modul nhất định ví dụ chỉ cho index className={style.prop} */

@@ -12,7 +12,7 @@ export default function Home() {
   // useEffect => mean sau khi loading xong pages nay no se gọi đến method này chạy: useEffect;
   useEffect(() => {
     setTimeout(() => {
-      setLoading('Welcome Home');
+      setLoading('SHILL MANAGEMENT');
     }, 2000);
   });
 
@@ -20,28 +20,68 @@ export default function Home() {
   return (
     <>
       <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Coder Wikipedia | Home</title>
         <meta name="keywords" content='coders codexx' />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
       </Head>
 
       <h1 className={styles.title}>
         {isLoading}
       </h1>
-      <p className={styles.text}>
-        We use cookies to enhance your experience on our website. This website uses cookies that provide targeted
-        advertising and which track your use of this website. By clicking
-        ‘continue’ or by continuing to use our website, you are agreeing
-        to our use of cookies. You can change your cookie settings at any
-        time. Tìm hiểu thêm.
-      </p>
+      <div className={styles.subtitle}>
+        <h5>Website shill projects of mods</h5>
+      </div>
 
-      <Link href="/coders">
-        <a className='btn'>See All Coders</a>
-      </Link>
+      <div className='wapper-menu'>
 
+        <Link href="/shill">
+          <a className={styles.btnMenu}>Shiller Run</a>
+        </Link>
+
+        <Link href="/mod">
+          <a className={styles.btnMenu}>Mods work</a>
+        </Link>
+
+        <Link href="/raider">
+          <a className={styles.btnMenu}>Raiders post</a>
+        </Link>
+
+        <Link href="/leader">
+          <a className={styles.btnMenu}>Leader marketing</a>
+        </Link>
+
+        <Link href="/hero">
+          <a className={styles.btnMenu}>Hero Inspiration</a>
+        </Link>
+
+        <Link href="/burn">
+          <a className={styles.btnMenu}>Burn Excited</a>
+        </Link>
+
+        <Link href="/company">
+          <a className={styles.btnCom}>Company Product/Platform</a>
+        </Link>
+      </div>
+      
+      <div className='wapper-guide-text'>
+       Good morning, wish you all the best! <br /> <br />
+       <p className={styles.text}>
+          Hãy kiểm tra nhiệm vụ của bạn đúng trang và làm mọi thứ theo hướng dẫn chung
+          nó sẽ có thời gian, rule, cách thức làm và gợi ý cách làm cụ thể.
+       </p> <br/>
+       <p className={styles.text}>
+          Nhiệm vụ dễ nhất chính là Shill và Shill cũng chính là nhiệm vụ nhiều nhất 
+          và hỗ trợ gần như cho toàn bộ các chức năng khác của dự án.
+       </p><br/>
+
+       <p className={styles.text}>
+        Chúc tất cả các bạn một ngày làm việc hiệu quả nhất!
+       </p><br/>
+      </div>
       <style jsx>
         {
-          `
+  `
   .btn{
     display: block;
     width: 150px;
@@ -52,8 +92,17 @@ export default function Home() {
     color: black;
     text-align: center;
   }
+  .wapper-menu{
+    width: 20%;
+    float: left;
+  }
+  
+  .wapper-guide-text{
+    width: 80%;
+    float: right;
+  }
   `
-        }
+    }
       </style>
     </>
   )

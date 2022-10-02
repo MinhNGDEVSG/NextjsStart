@@ -1,0 +1,15 @@
+.title{
+    color: black;
+    padding-bottom: 0px;
+    text-align: center;
+  }
+  
+  .subtitle{
+    color: blueviolet;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  
+  .text{
+    color: #777;
+  }
