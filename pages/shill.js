@@ -12,6 +12,7 @@ export default function Shill() {
          * Tạo sự sinh động rực rỡ liên tục cho dự án. <br></br>
          * Điều hướng dư luận theo các trending tích cực tạo ra. <br></br>
          * Luôn tạo sự hứng khởi cộng tác cùng các mod cho tốt nhất. <br></br>
+         * Tạo bổ xung đổi mới liên tục cho kịch bản mỗi ngày, mỗi tuần. <br></br>
         </p> 
         <br></br>
         <span>Happy day!</span>
