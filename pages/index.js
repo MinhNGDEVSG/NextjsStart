@@ -63,25 +63,36 @@ export default function Home() {
           <a className={styles.btnCom}>Company Product/Platform</a>
         </Link>
       </div>
-      
-      <div className='wapper-guide-text'>
-       Good morning, wish you all the best! <br /> <br />
-       <p className={styles.text}>
-          Hãy kiểm tra nhiệm vụ của bạn đúng trang và làm mọi thứ theo hướng dẫn chung
-          nó sẽ có thời gian, rule, cách thức làm và gợi ý cách làm cụ thể.
-       </p> <br/>
-       <p className={styles.text}>
-          Nhiệm vụ dễ nhất chính là Shill và Shill cũng chính là nhiệm vụ nhiều nhất 
-          và hỗ trợ gần như cho toàn bộ các chức năng khác của dự án.
-       </p><br/>
 
-       <p className={styles.text}>
-        Chúc tất cả các bạn một ngày làm việc hiệu quả nhất!
-       </p><br/>
+      <div className='wapper-guide-text'>
+        Good morning, wish you all the best! <br /> <br />
+
+        <div className={styles.divTask1}>
+          <p className={styles.text}>
+            * Kiểm tra nhóm, tiếp cận <span>SHILL</span>, giải đáp và tương tác và cho Mods học các yêu cầu sản phẩm.<br/>
+            <hr></hr>
+            * Kiểm newfed mod chủ, đảm bảo chạy đúng và nếu cần có thể bổ xung thêm nguồn or thay nguồn SHILL chính. <br/>
+            <hr></hr>
+            * Cải thiện các post <span>TW</span> cho các thành viên của họ như: @Guru, @Burn, @Army, @Holders. <br/>
+            <hr></hr>
+            * Lập ra danh sách SHILL để members có thể tương tác SHILL dự án dưới các TW post nổi tiếng liên quan
+              và danh sách cần được bot cập nhật vào nhóm cứ 2 ngày or 3 ngày một lần.
+             <br/>
+            <hr></hr>
+            * Chạy SHILL riêng cho các Raiders dưới post các TW độc đáo nhiều lượt tương tác, ít nhất 5 lần/d. <br/>
+            <hr></hr>
+            * Kiểm soát và chạy chiến dịch trending cho CMC+CGK+DEXTOOL để PR dự án được đến cộng đồng. <br/>
+            <hr></hr>
+            * Kiểm tra các ACC chủ của cộng đồng họ như TW, RD, DC, CMC, MDU đảm bảo đăng đúng nói đúng. <br/>
+            <hr></hr>
+            * Kiểm tra học và đưa ra các chương trình về sản phẩm của họ, thu hút member dùng or hold.
+          </p>
+        </div>
+        <br></br>
       </div>
       <style jsx>
         {
-  `
+          `
   .btn{
     display: block;
     width: 150px;
@@ -102,7 +113,7 @@ export default function Home() {
     float: right;
   }
   `
-    }
+        }
       </style>
     </>
   )

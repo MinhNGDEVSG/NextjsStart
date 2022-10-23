@@ -36,6 +36,23 @@
   border-radius: 5px;
   margin-top: 7px;
 }
+/* 1 */
+.divTask1{
+  width: 100%;
+  height: auto;
+  background-color: blueviolet;
+  padding:20px;
+  border-radius: 20px;
+  z-index: 100;
+}
+.divTask1:hover{
+  background-color: chartreuse;
+  margin-top: -1px;
+}
+.divTask1 p{
+  color: white;
+}
+
 
 
 /* dùng cho một modul nhất định ví dụ chỉ cho index className={style.prop} */
