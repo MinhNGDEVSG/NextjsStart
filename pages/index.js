@@ -71,7 +71,9 @@ export default function Home() {
           <p className={styles.text}>
             * Kiểm tra nhóm, tiếp cận <span>SHILL</span>, giải đáp và tương tác và cho Mods học các yêu cầu sản phẩm.<br/>
             <hr></hr>
-            * Kiểm newfed mod chủ, đảm bảo chạy đúng và nếu cần có thể bổ xung thêm nguồn or thay nguồn SHILL chính. <br/>
+            * Kiểm tra kênh, cập nhật các tin tức quan trọng cho sản phẩm or các thông tin liên quan dự án tốt nhất. <br/>
+            <hr></hr>
+            * Kiểm tra newfed mod chủ, đảm bảo chạy đúng và nếu cần có thể bổ xung thêm nguồn or thay nguồn SHILL chính nếu cần. <br/>
             <hr></hr>
             * Cải thiện các post <span>TW</span> cho các thành viên của họ như: @Guru, @Burn, @Army, @Holders. <br/>
             <hr></hr>
