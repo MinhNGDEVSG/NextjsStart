@@ -45,10 +45,7 @@
   border-radius: 20px;
   z-index: 100;
 }
-.divTask1:hover{
-  background-color: chartreuse;
-  margin-top: -1px;
-}
+
 .divTask1 p{
   color: white;
 }
